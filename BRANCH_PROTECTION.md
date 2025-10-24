@@ -15,6 +15,7 @@
 - 🚫 Allow deletions: **Off**
 - (Optional) **Linear history**: On
 
-**Screenshot:** _(paste image link here or drag into the PR)_
+**Screenshot:** <img width="1901" height="977" alt="image" src="https://github.com/user-attachments/assets/076d80aa-649c-44a9-9603-87fde9467156" />
+
 
 **Notes:** If you use GitLab, configure **Protected Branches** and **MR approvals** with equivalent checks.
