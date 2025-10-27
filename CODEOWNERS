@@ -1,9 +1,9 @@
-# CODEOWNERS
-# Lines are <pattern>  <owner>
-# Use team handles or individual usernames.
+ # CODEOWNERS
+# Lines are <pattern> <owner>
+# Use individual usernames (for personal repos).
 
-docs/**            @team/docs
-src/auth/**        @team/security @lead-dev
-openapi/**         @team/api
-.github/**         @lead-dev
-*                  @lead-dev
+docs/**          @md-anuar-hosen
+src/auth/**      @md-anuar-hosen
+openapi/**       @md-anuar-hosen
+.github/**       @md-anuar-hosen
+*                @md-anuar-hosen
