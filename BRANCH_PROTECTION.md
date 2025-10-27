@@ -14,5 +14,6 @@
 - 🚫 Allow force pushes: **Off**
 - 🚫 Allow deletions: **Off**
 - (Optional) **Linear history**: On
+<img width="1901" height="977" alt="image" src="https://github.com/user-attachments/assets/c549bff4-bc57-461d-82ed-0f72a48e3a8a" />
 
  
