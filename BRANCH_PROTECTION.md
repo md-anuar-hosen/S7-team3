@@ -15,6 +15,4 @@
 - 🚫 Allow deletions: **Off**
 - (Optional) **Linear history**: On
 
-**Screenshot:** _(paste image link here or drag into the PR)_
-
-**Notes:** If you use GitLab, configure **Protected Branches** and **MR approvals** with equivalent checks.
+ 
