@@ -2,12 +2,12 @@
 
 > Replace placeholders (TEAM_NAME, REPO_URL, etc.) with your real info before submitting.
 
-**Repository:** REPO_URL  
+**Repository:**  https://github.com/md-anuar-hosen/S7-team3  
 **Instructors have access:** ✅ (added with read access on DATE_HERE)
 
 ## Links to Evidence
-- **PR-A (Governance PR):** <link_to_PR_A>
-- **PR-B (Tiny feature/docs PR):** <link_to_PR_B>
+- **PR-A (Governance PR):**  https://github.com/md-anuar-hosen/S7-team3/pull/5  
+- **PR-B (Tiny feature/docs PR):**  https://github.com/md-anuar-hosen/S7-team3/pull/6
 - **Conflict Resolution Commit:** <link_to_conflict_resolution_commit>
 - **Example green CI run:** <link_to_successful_CI_run>
 
