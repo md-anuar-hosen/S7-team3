@@ -8,7 +8,7 @@
 ## Links to Evidence
 - **PR-A (Governance PR):**  https://github.com/md-anuar-hosen/S7-team3/pull/5  
 - **PR-B (Tiny feature/docs PR):**  https://github.com/md-anuar-hosen/S7-team3/pull/6
-- **Conflict Resolution Commit:** <link_to_conflict_resolution_commit>
+- **Conflict Resolution Commit:**  Conflict Resolution Commit: https://github.com/md-anuar-hosen/S7-team3/commit/5c6e2a1  
 - **Example green CI run:** <link_to_successful_CI_run>
 
 ## Governance Artifacts (required files)
