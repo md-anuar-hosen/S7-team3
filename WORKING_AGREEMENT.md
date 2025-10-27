@@ -26,3 +26,6 @@
 - Prefer **rebase** for small divergence; **merge** when multiple contributors.
 - Never blanket “ours/theirs” without reviewing; run tests after resolution.
 - Record the conflict resolution commit in `/S7/README.md` with short notes.
+
+**Note:** Merge window times follow local time zone (GMT+6 Dhaka).
+
