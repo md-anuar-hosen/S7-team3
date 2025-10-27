@@ -14,6 +14,14 @@
 - 🚫 Allow force pushes: **Off**
 - 🚫 Allow deletions: **Off**
 - (Optional) **Linear history**: On
-<img width="1901" height="977" alt="image" src="https://github.com/user-attachments/assets/c549bff4-bc57-461d-82ed-0f72a48e3a8a" />
+ # Branch Protection Evidence
 
- 
+Screenshot showing required branch-protection settings for `main`:
+- Require pull request before merging
+- Require 1 approval
+- Dismiss stale approvals
+- Require status checks to pass
+
+Screenshot proof below:
+ <img width="1319" height="909" alt="image" src="https://github.com/user-attachments/assets/ff4ffc00-d321-4637-8d6c-98d39b930f08" />
+
