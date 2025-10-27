@@ -1,3 +1,6 @@
+# S7-team3 (Version A)
+
+
 # S7 — Repo Governance, Reviews & Conflict Resolution (Evidence Index)
 
 > Replace placeholders (TEAM_NAME, REPO_URL, etc.) with your real info before submitting.
