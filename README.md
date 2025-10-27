@@ -9,22 +9,23 @@
 - **PR-A (Governance PR):**  https://github.com/md-anuar-hosen/S7-team3/pull/5  
 - **PR-B (Tiny feature/docs PR):**  https://github.com/md-anuar-hosen/S7-team3/pull/6
 - **Conflict Resolution Commit:**  Conflict Resolution Commit: https://github.com/md-anuar-hosen/S7-team3/commit/5c6e2a1  
-- **Example green CI run:** <link_to_successful_CI_run>
+- **Example green CI run:**  https://github.com/md-anuar-hosen/S7-team3/actions 
+### 📂 Governance Artifacts
+- `/docs/governance/CONTRIBUTING.md`
+- `/docs/governance/PR_CHECKLIST.md`
+- `/docs/governance/WORKING_AGREEMENT.md`
+- `/.github/pull_request_template.md`
+- `/.github/CODEOWNERS`
+- `/.github/workflows/ci.yml`
+- `/docs/governance/BRANCH_PROTECTION.md`
+- `/docs/governance/LABELS.md`
 
-## Governance Artifacts (required files)
-- [/docs/governance/CONTRIBUTING.md](../docs/governance/CONTRIBUTING.md)
-- [/docs/governance/PR_CHECKLIST.md](../docs/governance/PR_CHECKLIST.md)
-- [/docs/governance/WORKING_AGREEMENT.md](../docs/governance/WORKING_AGREEMENT.md)
-- [/.github/pull_request_template.md](../.github/pull_request_template.md)
-- [/.github/CODEOWNERS](../.github/CODEOWNERS)
-- [/.github/workflows/ci.yml](../.github/workflows/ci.yml)
-- [/docs/governance/BRANCH_PROTECTION.md](../docs/governance/BRANCH_PROTECTION.md)
-- [/docs/governance/LABELS.md](../docs/governance/LABELS.md)
+### 🧩 Verification Summary
+✅ Branch protection enabled on `main` with required CI + 1 approval  
+✅ PR-A (Governance) and PR-B (Tiny Docs) merged with checklist compliance  
+✅ Conflict resolved correctly in `README.md` and verified via CI  
+✅ AI disclosure included in PR-A  
+✅ `/S7/README.md` contains all evidence links
 
-## Quick Self‑Check
-- Branch protection exists on `main` with required green CI and 1–2 approvals.
-- Two PRs show template usage, checklist compliance, green checks, approvals.
-- Conflict resolution commit linked with short verification notes.
-- AI disclosure used at least in one PR.
-
-_Prepared for S7 submission on DATE_HERE._
+**Prepared and submitted on 27 Oct 2025**
+ 
