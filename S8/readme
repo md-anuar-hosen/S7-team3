@@ -1,0 +1,46 @@
+# S8 — Design Principles & Architecture
+
+This directory contains the S8 deliverables for the module: context & component diagrams, critical interfaces, NFR mapping, verification artifacts and the trade-offs note.
+
+**Repository:** [https://github.com/md-anuar-hosen/S7-team3](https://github.com/md-anuar-hosen/S7-team3)
+
+
+---
+
+## Required files (exact paths)
+
+* `/docs/architecture/context.png`  — Context diagram (PNG/PDF), labeled protocols & privacy boundary
+* `/docs/architecture/components.png` — Component diagram (PNG/PDF), acyclic
+* **One of** `/docs/architecture/openapi.yaml` **or** `/docs/architecture/interfaces.md`
+* `/docs/architecture/nfr_mapping.csv` — NFR → Tactic → Components → Verification mapping
+* `/docs/architecture/tradeoffs.md` — ≤300 words
+* `/S8/review_notes/TEAM_X.md` — outgoing Strong/Risk/Question notes + inbound summary
+
+## Verification artifact(s)
+
+* `/evidence/EV-perf-rsvp.pdf` (example) — k6 run report
+
+## Tests / scripts (optional but recommended)
+
+* `/S8/tests/T-PERF-01.js` — k6 skeleton for verifying p95 latency
+* `/S8/tests/T-A11Y-01.sh` — pa11y one-liner
+
+---
+
+## Quick cross-check for graders
+
+1. Click `docs/architecture/openapi.yaml` or `interfaces.md` to inspect the 3–5 interface contracts.
+2. Open `docs/architecture/nfr_mapping.csv` and confirm at least two NFR rows and that one row references `evidence/EV-*`.
+3. Open `/evidence/` and ensure at least one artifact exists (pa11y/k6/ZAP/uptime).
+4. Check `/S8/review_notes/TEAM_X.md` for Strong / Risk / Question entries and the summary of feedback received.
+
+---
+
+## Contact / ownership
+
+Owner: Ahmed Bahgat, Md Hosen
+Prepared & submitted: 27 Oct 2025
+
+---
+
+*End of S8 README.*
