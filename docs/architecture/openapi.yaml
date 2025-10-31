@@ -1,0 +1,109 @@
+openapi: 3.0.3
+info:
+  title: Example Team API (S8)
+  version: "1.0.0"
+servers:
+  - url: https://api.example.com
+paths:
+  /v1/rsvp:
+    get:
+      summary: List RSVPs (cursor pagination)
+      parameters:
+        - in: query
+          name: cursor
+          schema:
+            type: string
+        - in: query
+          name: limit
+          schema:
+            type: integer
+            maximum: 100
+            default: 50
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  items:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Rsvp'
+                  nextCursor:
+                    type: string
+        '429':
+          description: Rate limited (retryable)
+        '500':
+          description: Server error (retryable)
+      x-slo:
+        p95_ms: 200
+
+  /v1/rsvp:
+    post:
+      summary: Create RSVP (idempotent via client-key)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RsvpCreate'
+      responses:
+        '201':
+          description: Created
+        '409':
+          description: Conflict (duplicate)
+        '400':
+          description: Validation error
+      x-slo:
+        p99_ms: 500
+
+  /v1/auth/login:
+    post:
+      summary: Login (returns short-lived token)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username: { type: string }
+                password: { type: string }
+      responses:
+        '200': { description: OK }
+        '401': { description: Invalid credentials }
+      x-slo:
+        p95_ms: 250
+
+components:
+  schemas:
+    Rsvp:
+      type: object
+      properties:
+        id: { type: string }
+        name: { type: string }
+        status: { type: string }
+        createdAt: { type: string, format: date-time }
+    RsvpCreate:
+      type: object
+      required: [name, clientKey]
+      properties:
+        name: { type: string }
+        notes: { type: string }
+        clientKey: { type: string } # idempotency key
+
+x-error:
+  schema:
+    type: object
+    properties:
+      code: { type: integer }
+      message: { type: string }
+      details: { type: object }
+
+x-retries:
+  default:
+    timeout_seconds: 10
+    retries: 3
+    backoff: exponent
