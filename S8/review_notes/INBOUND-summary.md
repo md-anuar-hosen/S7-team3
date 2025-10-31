@@ -1,0 +1,3 @@
+- Add explicit schema property `nextCursor_expiresAt` note.
+- Add small test variant for cold-cache scenario.
+- Add a simple deployment diagram to /docs/architecture/components.png.
