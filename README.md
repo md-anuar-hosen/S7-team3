@@ -9,7 +9,7 @@
 - **PR-A (Governance PR):**  https://github.com/md-anuar-hosen/S7-team3/pull/5  
 - **PR-B (Tiny feature/docs PR):**  https://github.com/md-anuar-hosen/S7-team3/pull/6
 - **Conflict Resolution Commit:**  Conflict Resolution Commit: https://github.com/md-anuar-hosen/S7-team3/commit/5c6e2a1  
-- **Example green CI run:**  https://github.com/md-anuar-hosen/S7-team3/actions 
+ 
 ### 📂 Governance Artifacts
 - `/docs/governance/CONTRIBUTING.md`
 - `/docs/governance/PR_CHECKLIST.md`
